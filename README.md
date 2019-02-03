@@ -9,15 +9,19 @@ This simple utility takes a Caption file from sbv format and converts it to a pl
 text file without the timing. It can be edited, saved, and re-uploaded to Youtube
 as a Transcript which Youtube will automatically set timings for.
 
-Usage:
+### Usage:
 
 Requires Python to be installed.
 
 Command line:
+```
 python sbv2txt.py [Source SBV Filename] [Destination TXT Filename]
+```
 
 Example:
-pyton sbv2txt.py captions.sbv transcript.txt
+```
+python sbv2txt.py captions.sbv transcript.txt
+```
 
 Hope you find this useful! Adding Captions to a video can improve the viewership
 and popularity of a video so this tool will hopefully come in handy.
